@@ -27,7 +27,7 @@ class JanusSipPlugin extends JanusPlugin {
     String? proxy,
     String? outboundProxy,
     Map<String, dynamic>? headers,
-    List<Map<String, dynamic>>? contactParams,
+    Map<String, dynamic>? contactParams,
     List<String>? incomingHeaderPrefixes,
     String? masterId,
     int? registerTtl,
